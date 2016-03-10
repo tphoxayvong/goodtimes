@@ -33,7 +33,7 @@ class DataService{
             }
         }
         
-        NSNotificationCenter.defaultCenter().postNotification(NSNotification(name: "postLoaded", object: nil))
+        NSNotificationCenter.defaultCenter().postNotification(NSNotification(name: "postsLoaded", object: nil))
     }
     
     func saveImageAndCreatePath(image: UIImage) -> String {
